@@ -188,3 +188,12 @@ html[lang="en"] h2 { font-family: "Cinzel", serif; letter-spacing: .5px; }
 @media (prefers-reduced-motion: reduce) {
   .hero-bg, .snow { animation: none; }
 }
+
+/* ---- Support (Ko-fi) ---- */
+.support { text-align: center; }
+.support-ico { font-size: 2.6rem; margin-bottom: 6px; filter: drop-shadow(0 0 14px rgba(255, 179, 71, .45)); }
+.btn.kofi { display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #29abe0, #1b6fd1); color: #fff;
+  box-shadow: 0 8px 26px rgba(41, 171, 224, .35); font-weight: 800; }
+.btn.kofi:hover { box-shadow: 0 10px 32px rgba(41, 171, 224, .5); }
+.kofi-cup { font-size: 1.3rem; line-height: 1; }
+.support .note { color: var(--muted); font-size: .9rem; margin-top: 18px; }
