@@ -197,3 +197,6 @@ html[lang="en"] h2 { font-family: "Cinzel", serif; letter-spacing: .5px; }
 .btn.kofi:hover { box-shadow: 0 10px 32px rgba(41, 171, 224, .5); }
 .kofi-cup { font-size: 1.3rem; line-height: 1; }
 .support .note { color: var(--muted); font-size: .9rem; margin-top: 18px; }
+.kofi-badge { display: block; width: fit-content; margin: 0 auto; border-radius: 18px; transition: transform .2s, box-shadow .2s; }
+.kofi-badge img { display: block; width: 240px; max-width: 70vw; height: auto; border-radius: 18px; }
+.kofi-badge:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 10px 30px rgba(114, 165, 242, .45); }
