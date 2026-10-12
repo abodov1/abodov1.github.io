@@ -135,12 +135,6 @@ html[lang="en"] h2 { font-family: "Cinzel", serif; letter-spacing: .5px; }
 }
 .phone img { width: 100%; height: 100%; object-fit: cover; }
 
-/* ---------- Real in-game screenshots ---------- */
-.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; max-width: 840px; margin: 30px auto 0; }
-.shot { margin: 0; text-align: center; }
-.shot .phone { width: 100%; aspect-ratio: 1080 / 1495; border-radius: 22px; border-width: 6px; }
-.shot figcaption { margin-top: 10px; color: var(--muted); font-weight: 600; }
-@media (max-width: 720px) { .shots { grid-template-columns: repeat(2, 1fr); gap: 16px; } }
 
 .about { display: grid; grid-template-columns: 280px 1fr; gap: 36px; align-items: center; }
 .about h2 { text-align: start; }
